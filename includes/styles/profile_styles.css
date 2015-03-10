@@ -1,0 +1,196 @@
+#profile_picture {
+	height:9em;
+/* 	float:right; */
+}
+
+.event_picture {
+	height:9em;
+}
+
+#event_holder {
+	display:inline-block;
+	margin-top: .5em;
+	border-top: solid;
+}
+
+label {
+	display: block;
+	font-size: .9em;
+	padding-top: .5em;
+}
+
+.event_edit_left { 
+	position: absolute; 
+	top: 1em; 
+	left: 1em; 
+	right: 50%; 
+	bottom:15%;
+	margin-left:.5em;
+	padding:.5em;
+	/* background: yellow; */
+}
+
+.event_edit_right { 
+	position: absolute; 
+	top: 1em; 
+	left: 50%; 
+	right: 1em; 
+	bottom:15%;
+	padding:.5em;
+	margin:.25em;
+	/* background: lightblue; */
+}
+
+.event_edit_bottom { 
+	position: absolute; 
+	top: 85%; 
+	right: 1em; 
+	bottom:1em;
+	/* background: green; */
+}
+
+.manage_event .event_tl {
+	position: absolute; 
+	top: 1em; 
+	left: 1em; 
+	right: 40%; 
+	bottom: 25%; 
+	margin-left:.5em;
+	padding:.5em;
+	/* background: pink; */
+}
+
+.manage_event .event_bl { 
+	position: absolute; 
+	top: 75%; 
+	left: 1em; 
+	right: 40%; 
+	bottom: 1em; 
+	margin-left:.5em;
+	padding:.5em;
+	/* background: yellow; */
+}
+
+.manage_event .event_right { 
+	position: absolute; 
+	top: 1em; 
+	left: 60%; 
+	right: 1em; 
+	padding:.5em;
+	margin:.25em;
+	/* background: lightblue; */
+}
+
+.card_name{
+	font-weight:bold;
+	font-size:2.5em;
+	margin-bottom: 0em;
+	margin-top: .5em;
+}
+
+.manage_event .event_date{
+	display:inline-block;
+	padding-left: 2em;
+	margin-top: 0em;
+	margin-bottom:0em;
+	font-size:1em;
+}
+
+.manage_event .venue_location{
+	font-size:1.5em;
+}
+
+.image_holder{
+	text-align:right;
+}
+
+.card_image{
+	max-width:100%; 
+	max-height:40%; 
+	width:auto; 
+	height:auto;
+}
+
+.manage_event .event_description{
+	overflow-y: auto;
+	max-height: 34%;
+}
+
+.update_profile_left{
+	position: absolute; 
+	top: 1em; 
+	left: 1em; 
+	right: 40%; 
+	bottom: 25%; 
+	margin-left:.5em;
+	padding:.5em;
+}
+
+.update_profile_right{
+	position: absolute; 
+	top: 1em; 
+	left: 50%; 
+	right: 1em; 
+	padding:.5em;
+	margin:.25em;
+}
+
+.update_chef_top{
+	position: absolute; 
+	top: 1em; 
+	bottom:85%;
+}
+
+.update_chef_bl{
+	position: absolute; 
+	bottom: 1em; 
+	top: 50%;
+	left: 1em; 
+	right: 40%; 
+	margin-left:.5em;
+	padding:.5em;
+}
+
+.update_chef_br{
+	position: absolute; 
+	bottom: 1em; 
+	top: 50%;
+	left: 60%; 
+	right: 1em; 
+	padding:.5em;
+	margin:.25em;
+}
+
+#foods_table table {
+	display: block;
+	width: 100%;
+	border-collapse: collapse;
+	border: solid 1px #D4D4D3;
+	max-height: 20em;
+}
+
+tr {
+	border: solid 1px #D4D4D3;
+}
+
+.foods_table td {
+	/* width:100%; */
+	vertical-align:top;
+}
+
+#request_new_food_link {
+	color: blue;
+	cursor: pointer;
+	font-size: .9em;
+}
+#request_new_food_link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.gridimg2 {
+	max-width:10em;
+	max-height:7em; 
+	width:auto; 
+	height:auto;
+}

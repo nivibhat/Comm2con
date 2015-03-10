@@ -1,0 +1,59 @@
+/* styles for accordion section header and content   */
+#accordion {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 50px auto;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0;
+	background-color: brown;
+}
+
+#accordion .ui-accordion-content {
+	width: 95%;
+	font-size: 10pt;
+	margin: 3px;
+	line-height: 16pt;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-radius: 1em, 1em, 1em, 1em;
+	border-style: inset;
+}
+
+#accordion .ui-accordion-header {
+	display: block;
+	background-color: blanchedalmond;
+	margin: 3px;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-radius: 1em, 1em, 1em, 1em;
+	border-style: inset;
+}
+
+#accordion .ui-accordion-header a {
+	display: block;
+	width: 100%;
+	text-indent: 10pt;
+	line-height: 42px;
+	font-size: 12pt;
+}
+
+h3 {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	padding: .5em .5em .5em .7em;
+	min-height: 0;
+	background-color: #BFC4CC;
+
+}
+h2 {
+	margin: 10px;
+	text-align: center;
+}

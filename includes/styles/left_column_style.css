@@ -1,0 +1,78 @@
+.left_menu {
+	font-family: fantasy;
+	font-variant:  contextual;
+	font-size: 120%;
+	display:block;
+	color: brown;
+	background-image:  linear-gradient;
+}
+
+#accordion1 {
+	display: block;
+	min-height: 200;
+	min-width: 150;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 50px auto;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0;
+	background-color: gray;
+}
+
+#accordion1 .ui-accordion-content {
+	width: 90%;
+	font-size: 10pt;
+	margin: 3px;
+	line-height: 16pt;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-radius: 1em, 1em, 1em, 1em;
+	border-style: inset;
+}
+
+#accordion1 .ui-accordion-header {
+	display: block;
+	background-color: #9899CC;
+	margin: 3px;
+	border-style: inset;
+}
+
+#accordion1 .ui-accordion-header a {
+	display: block;
+	width: 100%;
+	text-indent: 10pt;
+	line-height: 42px;
+	font-size: 12pt;
+}
+
+.left_menu h3 {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	padding: .5em .5em .5em .7em;
+	min-height: 0;
+	background-color: #BFC4CC;
+
+}
+.left_menu h2 {
+	margin: 10px;
+	text-align: center;
+}
+.para1 {
+	font-size: 90%;
+	color: blue;
+	font-style:  oblique;
+	margin:.1em 0 .1em 0;
+	padding:0;
+}
+
+.left_faq_header {
+	font-size: 100%;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: brown;
+}

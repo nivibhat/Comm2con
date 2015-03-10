@@ -1,0 +1,80 @@
+label {
+	display:block;
+	font-size: .9em;
+	padding-top: .5em;
+}
+
+.account {
+	width:16em;
+}
+
+.page_content_holder{
+	position:relative;
+	max-width: 75em;
+	padding-top: 1em;
+	margin-left:auto;
+	margin-right:auto;
+	background: #eee;
+}
+ .registration_section{
+	position: absolute; 
+	top: 1em; 
+	right: 0em; 
+	min-width: 4em;
+	max-height:30em;
+	padding:.5em;
+	background: #eee;
+	border:solid; 
+	margin-top:0em;
+	margin-right: 1em;
+	z-index:3;
+}
+
+.public_event_section{
+	padding:.5em;
+	max-width: 40em;
+	margin-left:2em;
+	min-width:30em;
+	min-height: 38em;
+	margin-bottom: 1em;
+}
+
+ .information_section{
+	padding:.5em;
+	margin-left: 5em;
+	display:block;
+	width: 40em;
+	height: 8em;
+	background:white;
+	/* border-image:  url('img_style/page_bg.jpg'); */
+}
+
+#login_form{
+	margin:0em;
+	padding:0em;
+	border:0em;
+	position: absolute;
+	right: 0em;
+	top: 2em;
+	min-width:30em;
+	background: #dee9f3;
+}
+
+#login_form ul {
+	list-style-position:outside; 
+	list-style-type: none;
+	padding:0em;
+}
+
+#login_form li {
+	float:left;
+	padding-left:10px;
+}
+
+#login_form label {
+	display:inline;
+}
+
+#login_form div {
+	display:block;
+}

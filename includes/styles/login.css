@@ -1,0 +1,25 @@
+
+h3 {
+    margin: 1em 0 1em 1em;
+    font-size:  130%;
+    text-align: center;
+    
+}
+
+.input_class {
+    
+    margin: 2px 0 2px 4em;
+    padding: 2px 0 12px 4em;
+    height: 2em;width: 80%;
+    
+}
+.label_class {
+     margin-left: 2em;
+     margin-top: 10px;
+     padding-left: 2em;
+     padding-top: 5px;
+     padding-bottom: 1px;
+    font-family:  sans-serif;
+    color: blue;
+    
+}
